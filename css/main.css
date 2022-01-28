@@ -46,15 +46,11 @@ nav {
   background-color: #DBD56E;
 }
 
-
-
 .main-nav ul li {
   flex: 1;
   text-align: center;
   background-color: #DBD56E;
 }
-
-
 
 .main-nav ul li a {
   display: block;
@@ -76,6 +72,8 @@ nav {
   overflow: hidden;
 }
 
+
+/* mobile */
 @media screen and (min-width: 350px) {
   .container {
     max-width: 260px;
@@ -103,6 +101,8 @@ nav {
   }
 }
 
+
+/* tablet */
 @media screen and (min-width: 760px) {
   .container {
     max-width: 600px;
@@ -122,6 +122,8 @@ nav {
   }
 }
 
+
+/* desktop */
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1080px;
