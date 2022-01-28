@@ -1,8 +1,12 @@
+
+/* ---------------Overall Setting and Container--------------- */
+
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: #403D58;
   margin: 0;
   padding: 0;
+  color: #F2EFEA;
 }
 
 h1,
@@ -12,6 +16,7 @@ h4,
 h5,
 h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  margin: 1em 0em;
 }
 
 .container {
@@ -22,6 +27,24 @@ h6 {
 
 img {
   width: 100%;
+  transform: translateY(-80px);
+}
+
+header, main {
+  margin: 0px;
+}
+
+main {
+  background-color: #F2EFEA;
+  color: #403D58;
+  transform: translateY(-24px);
+  padding: 2em 0em;
+}
+
+/* ---------------Navigation--------------- */
+
+nav {
+  background-color: #DBD56E;
 }
 
 .main-nav ul {
@@ -35,20 +58,64 @@ img {
 .main-nav ul li {
   flex: 1;
   text-align: center;
+  background-color: #DBD56E;
+}
+
+.main-nav ul li:not(:last-child) {
+  border-right: 1px solid #3D3A54;
 }
 
 .main-nav ul li a {
   display: block;
-  color: inherit;
+  color: #3D3A54;
   text-decoration: none;
   font-size: 1.25rem;
+  padding: 10px 0px;
+}
+
+.main-nav ul li:hover {
+  background-color: #F2EFEA;
+}
+
+.main-nav ul li:active {
+  background-color: #66D7D1;
+}
+
+
+
+/* ---------------Main Banner--------------- */
+
+.banner-crop {
+  max-height: 600px;
+  overflow: hidden;
+}
+
+
+
+/* ---------------Owner Section--------------- */
+
+.owner ul li a {
+  color: #403D58;
+}
+
+
+
+/* ---------------Contact Section--------------- */
+
+label {
+  font-size: 1.1em;
+  margin-bottom: 0.2em;
+}
+
+form p {
+  margin: 10px 0px;
 }
 
 form input,
 form textarea {
   display: block;
   width: 100%;
-  margin-bottom: 1rem;
+  margin: 0.5rem 0rem 1.5rem;
   padding: .5rem 1rem;
 }
 
@@ -61,11 +128,29 @@ form textarea {
 
 form button {
   background: none;
-  border: 2px solid black;
-  padding: 1rem;
+  border: 2px solid #403D58;
+  margin: 0.5em 0em;
+  padding: 0.8rem;
   text-transform: uppercase;
+  color: #403D58;
+  font-size: 1em;
 }
 
+.form-note {
+  font-size: 0.9em;
+  margin: 0.2em 0em;
+}
+
+form button:hover {
+  background-color: #403D58;
+  color: #F2EFEA;
+  cursor: pointer;
+}
+
+
+
+/* ---------------Footer--------------- */
+
 .site-footer {
-  padding: 2rem 0;
+  padding: 1rem 0rem 2rem;
 }
