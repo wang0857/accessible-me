@@ -27,7 +27,6 @@ h6 {
 
 img {
   width: 100%;
-  transform: translateY(-80px);
 }
 
 header, main {
@@ -95,10 +94,6 @@ nav {
   .banner-crop {
     max-height: 260px;
   }
-
-  img {
-    transform: translateY(0px);
-  }
 }
 
 
@@ -119,6 +114,10 @@ nav {
 
   .banner-crop {
     max-height: 380px;
+  }
+
+  img {
+    transform: translateY(-80px);
   }
 }
 
